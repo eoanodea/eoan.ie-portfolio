@@ -45,7 +45,7 @@ const StyledProject = styled.li`
       text-align: right;
 
       @media (max-width: 1080px) {
-        grid-column: 5 / -1;
+        grid-column: 7 / -1;
       }
       @media (max-width: 768px) {
         grid-column: 1 / -1;
@@ -54,6 +54,20 @@ const StyledProject = styled.li`
       }
       @media (max-width: 480px) {
         padding: 25px 25px 20px;
+      }
+    }
+    .project-tech-list-wrapper {
+      margin: 20px 0;
+      transition: var(--transition);
+      position: relative;
+      z-index: 2;
+      border-radius: var(--border-radius);
+      background-color: var(--light-navy);
+      padding: 5px;
+
+      @media (max-width: 768px) {
+        background-color: transparent;
+        box-shadow: none;
       }
     }
     .project-tech-list {
@@ -363,11 +377,13 @@ const Featured = () => {
                     />
 
                     {tech.length && (
-                      <ul className="project-tech-list">
-                        {tech.map((tech, i) => (
-                          <li key={i}>{tech}</li>
-                        ))}
-                      </ul>
+                      <div className="project-tech-list-wrapper">
+                        <ul className="project-tech-list">
+                          {tech.map((tech, i) => (
+                            <li key={i}>{tech}</li>
+                          ))}
+                        </ul>
+                      </div>
                     )}
 
                     <div className="project-links">
