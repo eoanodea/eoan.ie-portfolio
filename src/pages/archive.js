@@ -153,7 +153,14 @@ const ArchivePage = ({ location, data }) => {
       <main>
         <header ref={revealTitle}>
           <h1 className="big-heading">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <p className="subtitle">A big list personal / college projects I’ve worked on.</p>
+          <p>
+            {' '}
+            You can view my professional projects with WebSpace{' '}
+            <b>
+              <a href="https://web-space.design/work/">here</a>
+            </b>
+          </p>
         </header>
 
         <StyledTableContainer ref={revealTable}>

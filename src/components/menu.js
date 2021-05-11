@@ -266,8 +266,8 @@ const Menu = () => {
               </ol>
             )}
 
-            <a href="/resume.pdf" className="resume-link">
-              Resume
+            <a href="https://cv.eoan.ie" target="_blank" className="resume-link" rel="noreferrer">
+              CV
             </a>
           </nav>
         </StyledSidebar>

@@ -62,12 +62,17 @@ const Hero = () => {
   const two = <h2 className="big-heading">Eoan O'Dea.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
-    <p>
-      I'm an Irish software engineer specialising in Web and Mobile technologies. I build cool stuff
-      and occasionally design digital experiences. <br /> I founded and currently run{' '}
-      <a href="https://web-space.design">WebSpace</a>, and just finished my Bachelors in Creative
-      Computing.
-    </p>
+    <>
+      <p>
+        I'm an Irish software engineer specialising in Web and Mobile technologies. I build cool
+        stuff and occasionally design digital experiences.
+      </p>
+      <p>
+        {' '}
+        I founded and currently run <a href="https://web-space.design">WebSpace</a>, and just
+        finished my Bachelors in Creative Computing.
+      </p>
+    </>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
