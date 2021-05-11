@@ -14,7 +14,7 @@ tech:
   - Express
   - Mikro ORM
   - TypeScript
-showInProjects: false
+showInProjects: true
 ---
 
 A music theory & piano teaching mobile application designed and developed for my bachelor's thesis. The application was deployed to both iOS and Android, and an admin content management system was also built in React.

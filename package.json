@@ -1,14 +1,16 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "eoan.ie",
+  "description": "Personal Website - Forked from Brittany Chiang",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Eoan O'Dea ",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/eoanodea/v4"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "React",
+    "JavaScript"
   ],
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",

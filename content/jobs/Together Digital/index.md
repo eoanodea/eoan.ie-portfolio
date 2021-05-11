@@ -3,7 +3,7 @@ date: '2018-05-01'
 title: 'Web Developer'
 company: 'Together Digital'
 location: 'Dublin, IE'
-range: 'May - July 2018'
+range: 'May - Jul 2018'
 url: 'https://www.togetherindigital.com/'
 ---
 
