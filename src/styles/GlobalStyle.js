@@ -148,6 +148,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.1;
   }
 
+
   .big-heading {
     margin: 0;
     font-size: clamp(40px, 8vw, 80px);

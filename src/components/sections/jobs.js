@@ -73,6 +73,7 @@ const StyledTabButton = styled.button`
   width: 100%;
   height: var(--tab-height);
   padding: 0 20px 2px;
+  white-space: pre-wrap;
   border-left: 2px solid var(--lightest-navy);
   background-color: transparent;
   color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--slate)')};
@@ -91,6 +92,10 @@ const StyledTabButton = styled.button`
     border-left: 0;
     border-bottom: 2px solid var(--lightest-navy);
     text-align: center;
+  }
+
+  @media (max-width: 400px) {
+    min-width: 150px;
   }
 
   &:hover,

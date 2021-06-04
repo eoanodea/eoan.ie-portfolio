@@ -70,6 +70,9 @@ const StyledProject = styled.li`
         grid-column: 1 / -1;
         padding: 40px 40px 30px;
         text-align: left;
+        .project-description ul {
+          direction: ltr;
+        }
       }
       @media (max-width: 480px) {
         padding: 25px 25px 20px;
@@ -271,7 +274,6 @@ const StyledProject = styled.li`
     a {
       width: 100%;
       height: 100%;
-      background-color: var(--green);
       border-radius: var(--border-radius);
       vertical-align: middle;
 

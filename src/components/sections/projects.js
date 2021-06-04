@@ -27,7 +27,8 @@ const StyledProjectsSection = styled.section`
   .projects-grid {
     ${({ theme }) => theme.mixins.resetList};
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 15px;
     position: relative;
     margin-top: 50px;
