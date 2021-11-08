@@ -135,8 +135,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi there! My name is Eoan and I enjoy building cool things. My interest in software
-              engineering started back in 2016 when I decided to teach myself Web Development.
+              Hi there! My name is Eoan. My interest in software engineering started back in 2016
+              when I decided to teach myself Web Development.
             </p>
             <p>
               Shortly after this I founded{' '}
@@ -147,12 +147,16 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, and I've been running WebSpace for 5 years, and just completed
-              a Bachelors degree in Creative Computing at{' '}
+              Fast-forward to today, and I've been running WebSpace for{' '}
+              {new Date().getFullYear() - new Date('01/01/2016').getFullYear()} years, and have
+              assembled a talented team to work with me on some great projects. I study a Masters in
+              Software Engineering &amp; Green IT at{' '}
+              <a href="https://vu.nl/en">Vrije Universiteit</a>, Amsterdam, and graduated from{' '}
               <a href="https://iadt.ie/" target="_blank" rel="noreferrer">
                 IADT
               </a>
-              . I also teach Maths & Web Development at{' '}
+              as Student of the year, with a First class honours Bachelors degree in Creative
+              Computing. I also teach Maths & Web Development at{' '}
               <a href="http://www.bfei.ie/" target="_blank" rel="noreferrer">
                 BFEI
               </a>
