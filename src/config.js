@@ -3,6 +3,10 @@ module.exports = {
 
   socialMedia: [
     {
+      name: 'Discord',
+      url: 'https://discord.gg/pZJyMrcs7s',
+    },
+    {
       name: 'GitHub',
       url: 'https://github.com/eoanodea',
     },
