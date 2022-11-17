@@ -150,13 +150,18 @@ const About = () => {
               Fast-forward to today, and I've been running WebSpace for{' '}
               {new Date().getFullYear() - new Date('01/01/2016').getFullYear()} years, and have
               assembled a talented team to work with me on some great projects. I study a Masters in
-              Software Engineering &amp; Green IT at{' '}
-              <a href="https://vu.nl/en">Vrije Universiteit</a>, Amsterdam, and graduated from{' '}
+              Software Engineering &amp; Green IT between{' '}
+              <a href="https://vu.nl/en">Vrije Universiteit</a>, Amsterdam and Università degli
+              Studi dell'Aquila, Italy. I graduated from{' '}
               <a href="https://iadt.ie/" target="_blank" rel="noreferrer">
                 IADT
               </a>
               as Student of the year, with a First class honours Bachelors degree in Creative
-              Computing. I also teach Maths & Web Development at{' '}
+              Computing. I also teach Full stack development at{' '}
+              <a href="https://techacademy.brightnetwork.co.uk/" target="_blank" rel="noreferrer">
+                Bright Network
+              </a>
+              and I tutor Maths & Web Development at{' '}
               <a href="http://www.bfei.ie/" target="_blank" rel="noreferrer">
                 BFEI
               </a>

@@ -1,13 +1,12 @@
 ---
-date: '2017-02-01'
-title: 'Account Manager'
+date: '2022-08-01'
+title: 'Software Engineering Trainer'
 company: 'Bright Network'
 location: 'London, UK'
-range: 'Jan 2017 - Apr 2017'
+range: 'Aug 2022 - PRESENT'
 url: 'https://www.brightnetwork.co.uk/'
 ---
 
-- Responsible for New Business Development across the UK.
-- Accountability for lead and meeting generation.
-- Confident with a range of social media and marketing techniques to connect with relevant businesses.
-- Accurate tracking management of new contacts and company blueprinting within CRM software (SalesForce).
+- Training students in the fundamentals of programming, Java, Spring, HTML, CSS, React
+- A mixture of writing lessons and teaching classes with up to 30 students
+- Assigning projects and grading students
