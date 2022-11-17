@@ -65,14 +65,15 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm an Irish entrepreneur &amp; software engineer specialising in Web and Mobile
+        I'm an Irish entrepreneur, trainer &amp; software engineer specialising in Web and Mobile
         technologies. I build cool stuff and occasionally design digital experiences.
       </p>
       <p>
         {' '}
         I founded and currently run <a href="https://web-space.design">WebSpace</a>, and am studying
-        a Masters in Software Engineering &amp; Green IT at{' '}
-        <a href="https://vu.nl/en">Vrije Universiteit</a>, Amsterdam.
+        a Masters in Software Engineering &amp; Green IT between{' '}
+        <a href="https://vu.nl/en">Vrije Universiteit</a>, Amsterdam and{' '}
+        <a href="https://www.univaq.it/">Università degli Studi dell'Aquila, Italy</a>.
       </p>
     </>
   );
