@@ -82,7 +82,7 @@ const StyledPic = styled.div`
       position: relative;
       border-radius: var(--border-radius);
       mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      // filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -125,7 +125,19 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['TypeScript', 'React', 'Node.js', 'GraphQL', 'Dart', 'WordPress', 'PHP', 'C++'];
+  const skills = [
+    'Green IT',
+    'Sustainable Software',
+    'Software Architecture',
+    'Microservices',
+    'Energy-Aware Software Design',
+    'Green Software Measurement',
+    'Benchmarking',
+    'Cloud Efficiency',
+    'Resource Optimization',
+    'Full-Stack Engineering',
+    'Mentorship',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -166,7 +178,12 @@ const About = () => {
               <a href="https://www.univaq.it/" target="_blank" rel="noreferrer">
                 Università degli Studi dell'Aquila
               </a>
-              . I teach and mentor emerging developers at institutions including{' '}
+              .{' '}
+            </p>
+
+            <p>
+              {' '}
+              I teach and mentor emerging developers at institutions including{' '}
               <a href="https://www.univaq.it/" target="_blank" rel="noreferrer">
                 Università degli Studi dell'Aquila
               </a>
@@ -175,7 +192,7 @@ const About = () => {
                 Le Wagon Amsterdam
               </a>
               ,{' '}
-              <a href="https://techacademy.brightnetwork.co.uk/" target="_blank" rel="noreferrer">
+              <a href="https://brightnetwork.co.uk/" target="_blank" rel="noreferrer">
                 Bright Network
               </a>
               ,{' '}
@@ -189,7 +206,7 @@ const About = () => {
               .
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>My Skills:</p>
           </div>
 
           <ul className="skills-list">

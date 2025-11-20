@@ -40,7 +40,7 @@ const Head = ({ title, description, image }) => {
     name: 'Eoan O\'Dea',
     alternateName: 'eoanodea',
     url: siteUrl,
-    image: `${siteUrl}/me.jpeg`,
+    image: `${siteUrl}/images/me.jpeg`,
     description:
       'Irish software engineer, trainer and PhD student in green software and software architecture, focusing on sustainable software systems and energy-efficient microservice architectures.',
     jobTitle: [

@@ -61,22 +61,26 @@ const Hero = () => {
 
   const one = <h1 className="super-big-heading">Hi, my name is</h1>;
   const two = <h2 className="big-heading">Eoan.</h2>;
-  const three = <h3 className="big-heading">I build cool things.</h3>;
+  const three = <h3 className="big-heading">I build sustainable, scalable software.</h3>;
+
   const four = (
     <>
       <p>
-        I'm an Irish entrepreneur, trainer &amp; software engineer specialising in Web and Mobile
-        technologies. I build cool stuff and occasionally design digital experiences.
+        I'm an Irish software engineer, researcher, and entrepreneur focused on building
+        sustainable, high-quality digital systems. I specialise in full-stack engineering and modern
+        software architecture.
       </p>
       <p>
-        {' '}
-        I founded and currently run <a href="https://web-space.design">WebSpace</a>, and am studying
-        a Masters in Software Engineering &amp; Green IT between{' '}
-        <a href="https://vu.nl/en">Vrije Universiteit</a>, Amsterdam and{' '}
-        <a href="https://www.univaq.it/">Università degli Studi dell'Aquila, Italy</a>.
+        I founded and run <a href="https://web-space.ie">WebSpace</a>, where I work with an amazing
+        team to deliver impactful digital solutions. Alongside this, I'm completing a PhD in
+        Software Engineering &amp; Green IT with{' '}
+        <a href="https://www.univaq.it/">Università degli Studi dell'Aquila</a> and the{' '}
+        <a href="https://www.rug.nl/">University of Groningen</a>, researching sustainable software
+        systems and energy-efficient architectures.
       </p>
     </>
   );
+
   const five = (
     <a href={`mailto:${email}`} className="email-link">
       Get In Touch
