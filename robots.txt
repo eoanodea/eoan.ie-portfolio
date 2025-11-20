@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://about.eoan.ie/sitemap.xml
+Sitemap: https://about.eoan.ie/sitemap-index.xml
 Host: https://about.eoan.ie
