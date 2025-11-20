@@ -135,44 +135,58 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi there! My name is Eoan. My interest in software engineering started back in 2016
-              when I decided to teach myself Web Development.
-            </p>
-            <p>
-              Shortly after this I founded{' '}
-              <a href="https://web-space.design" target="_blank" rel="noreferrer">
+              Hi there! I'm Eoan — a software engineer, researcher, and founder of{' '}
+              <a href="https://web-space.ie" target="_blank" rel="noreferrer">
                 WebSpace
               </a>
               .
             </p>
 
             <p>
-              Fast-forward to today, and I've been running WebSpace for{' '}
-              {new Date().getFullYear() - new Date('01/01/2016').getFullYear()} years, and have
-              assembled a talented team to work with me on some great projects.
+              I started teaching myself web development back in 2016, which quickly led to founding
+              WebSpace. Nine years later, I still run the company and work with an incredible team
+              delivering modern, high-quality digital solutions for clients across Ireland and
+              Europe.
             </p>
+
             <p>
-              I study a Masters in Software Engineering &amp; Green IT between{' '}
-              <a href="https://vu.nl/en">Vrije Universiteit</a>, Amsterdam and Università degli
-              Studi dell'Aquila, Italy.
+              Alongside my industry work, I'm pursuing a PhD in Software Engineering &amp; Green IT,
+              focusing on sustainable software systems and energy-efficient architectures. My
+              research is jointly supervised across European universities and aims to help
+              developers build software that is both scalable and environmentally responsible.
             </p>
+
             <p>
-              I graduated from{' '}
+              I hold a first-class honours degree in Creative Computing from{' '}
               <a href="https://iadt.ie/" target="_blank" rel="noreferrer">
                 IADT
               </a>
-              as Student of the year, with a First class honors Bachelor's degree in Creative
-              Computing.
-            </p>
-            <p>
-              I teach Full stack development at{' '}
+              , where I graduated as Student of the Year, and a Master's degree (cum laude) in
+              Software Engineering &amp; Green IT from{' '}
+              <a href="https://www.univaq.it/" target="_blank" rel="noreferrer">
+                Università degli Studi dell'Aquila
+              </a>
+              . I teach and mentor emerging developers at institutions including{' '}
+              <a href="https://www.univaq.it/" target="_blank" rel="noreferrer">
+                Università degli Studi dell'Aquila
+              </a>
+              ,{' '}
+              <a href="https://www.lewagon.com/" target="_blank" rel="noreferrer">
+                Le Wagon Amsterdam
+              </a>
+              ,{' '}
               <a href="https://techacademy.brightnetwork.co.uk/" target="_blank" rel="noreferrer">
                 Bright Network
               </a>
-              and I tutor Maths & Web Development at{' '}
+              ,{' '}
+              <a href="https://iadt.ie/" target="_blank" rel="noreferrer">
+                IADT
+              </a>
+              , and{' '}
               <a href="http://www.bfei.ie/" target="_blank" rel="noreferrer">
                 BFEI
               </a>
+              .
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
