@@ -87,6 +87,10 @@ const Footer = () => (
       <a href="https://github.com/bchiang7/v4">Designed &amp; Built by Brittany Chiang</a>
       {' - '}
       <a href="https://github.com/eoanodea/v4">Modified and launched by Eoan O'Dea</a>
+      {' · '}
+      <a href="https://www.wikidata.org/wiki/Q137781056" rel="me">
+        Wikidata
+      </a>
     </StyledCredit>
   </StyledFooter>
 );
