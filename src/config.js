@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'hello@eoan.ie',
+  email: 'linkedin.com/in/eoanodea/',
 
   socialMedia: [
     {

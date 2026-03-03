@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
-import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 
@@ -81,7 +80,7 @@ const Hero = () => {
   );
 
   const five = (
-    <a href={`mailto:${email}`} className="email-link">
+    <a href="https://www.linkedin.com/in/eoanodea/" className="email-link" target="_blank" rel="noreferrer">
       Get In Touch
     </a>
   );
