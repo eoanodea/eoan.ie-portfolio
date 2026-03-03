@@ -109,6 +109,7 @@ const Head = ({ title, description, image }) => {
       'https://archive.onshow.iadt.ie/2021/student/eoan-odea/',
       'https://www.researchgate.net/profile/Eoan-Odea',
       'https://www.framelab.team/rushmore_teams/eoan-odea/',
+      'https://research.rug.nl/en/persons/eoan-odea',
     ],
   };
 

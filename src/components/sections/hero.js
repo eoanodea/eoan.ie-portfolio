@@ -71,12 +71,11 @@ const Hero = () => {
         software architecture.
       </p>
       <p>
-        I founded and run <a href="https://web-space.ie">WebSpace</a>, where I work with an amazing
-        team to deliver impactful digital solutions. Alongside this, I'm completing a PhD in
-        Software Engineering &amp; Green IT with{' '}
+        I founded and run <a href="https://web-space.ie">WebSpace</a>. I am also a PhD researcher in
+        Software Engineering &amp; Green IT at the{' '}
         <a href="https://www.univaq.it/">Università degli Studi dell'Aquila</a> and the{' '}
-        <a href="https://www.rug.nl/">University of Groningen</a>, researching sustainable software
-        systems and energy-efficient architectures.
+        <a href="https://research.rug.nl/en/persons/eoan-odea">University of Groningen</a>, where I
+        research sustainable software systems and energy-efficient architectures.
       </p>
     </>
   );
